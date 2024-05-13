@@ -1,0 +1,23 @@
+﻿@*
+   
+*@
+@{
+    ViewData["Title"] = "Create Job";
+}
+
+<h1>Create assignment</h1>
+
+<form action="/Jobs/Create" method="post">
+    <label for="startTime">Start Time:</label>
+    <input type="time" id="startTime" name="StartTime" required>
+
+    <label for="endTime">End Time:</label>
+    <input type="time" id="endTime" name="EndTime" required>
+
+    <input type="text" name="Title" placeholder="Title" />
+
+    <textarea name="Description" placeholder="Describe the task">
+</textarea>
+
+    <button>Add</button>
+</form>

@@ -1,0 +1,19 @@
+﻿@model List<Employee>
+@*
+  
+*@
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h1>Employee overview</h1>
+
+<h3>List of employees</h3>
+@foreach (Employee employee in Model)
+{
+    <p>Name: @employee.Name </p>
+    <p>Date of Birth: @employee.Birthyear.ToLocalTime().ToString("yyyy-MM-dd")</p>
+    <p><a href="/Employees/ShowEmployee/@employee.Id">Show Employee</a></p>
+}
+<h3>Add new employee</h3>
+<p><a href="/Employees/Create">Add</a></p>

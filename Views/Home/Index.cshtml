@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Assignment</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var greetingElement = document.getElementById('greeting');
+            var currentTime = new Date().getHours();
+
+            if (currentTime < 12) {
+                greetingElement.innerHTML = 'Good Morning';
+            } else if (currentTime < 18) {
+                greetingElement.innerHTML = 'Good Afternoon';
+            } else {
+                greetingElement.innerHTML = 'Good Evening';
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4" id="greeting">Welcome</h1>
+        <p>Time-Log for employees.</p>
+    </div>
+
+    <div>
+        <h2>Clock In and Out</h2>
+        <ul>
+            @foreach (Employee employee in ViewBag.Employees)
+            {
+                <li>
+                    @employee.Name
+                    @if (employee.ClockInTime == null)
+                    {
+                        <form action="/Home/ClockIn" method="post">
+                            <input type="hidden" name="employeeId" value="@employee.Id" />
+                            <button type="submit">Clock In</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <p>Clocked In: @employee.ClockInTime</p>
+                    }
+
+                    @if (employee.ClockOutTime == null && employee.ClockInTime != null)
+                    {
+                        <form action="/Home/ClockOut" method="post">
+                            <input type="hidden" name="employeeId" value="@employee.Id" />
+                            <button type="submit">Clock Out</button>
+                        </form>
+                    }
+                    else if (employee.ClockOutTime != null)
+                    {
+                        <p>Clocked Out: @employee.ClockOutTime</p>
+                    }
+
+                    <form action="/Home/DeleteTimes" method="post">
+                        <input type="hidden" name="employeeId" value="@employee.Id" />
+                        <button type="submit">Reset times</button>
+                    </form>
+                </li>
+            }
+        </ul>
+       
+    </div>
+</body>
+</html>

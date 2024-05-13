@@ -1,0 +1,14 @@
+﻿@model Employee
+@*
+    
+*@
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+<h1>Update employee information</h1>
+
+<form action="/Employees/EditEmployee/@Model.Id" method="post">
+    <input type="text" name="Name" placeholder="Name of the employee" value="@Model.Name" />
+    <input type="date" name="Birthyear" placeholder="dd/mm/yyyy" value="@Model.Birthyear.ToLocalTime().ToString("yyyy-MM-dd")"/>
+    <button>Save</button>
+</form>

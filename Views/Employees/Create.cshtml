@@ -1,0 +1,15 @@
+﻿@model Employee
+@*
+    
+*@
+@{
+    ViewData["Title"] = "Create Employee";
+}
+
+<h1>Add employee</h1>
+
+<form action="/Employees/Create" method="post">
+    <input type="text" name="Name" placeholder="Name of the employee" />
+    <input type="date" name="Birthyear" placeholder="yyyy-MM-dd" />
+    <button>Save</button>
+</form>

@@ -1,0 +1,57 @@
+﻿@using MongoDB.Bson
+@model Employee
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Show Employee";
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @ViewBag.SuccessMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<h1>@Model.Name</h1>
+
+<p>Date of Birth: @Model.Birthyear.ToLocalTime().ToString("yyyy-MM-dd")</p>
+
+<p><a href="/Employees/EditEmployee/@Model.Id">Edit</a></p>
+
+<form id="deleteForm" action="/Employees/DeleteEmployee/@Model.Id">
+    <button type="button" onclick="confirmDelete()">Delete Employee</button>
+</form>
+
+<h3>Assigned Work</h3>
+@if (Model.AssignedWorkId != ObjectId.Empty)
+{
+    <p><a href="/Jobs/ShowJob/@Model.AssignedWorkId">Show Assigned Work</a></p>
+    <form action="/Employees/RemoveAssignedWork/@Model.Id" method="post">
+        <button type="submit">Remove Assigned Work</button>
+    </form>
+}
+else
+{
+    <p>No work assigned.</p>
+}
+
+<h3>Assign New Work</h3>
+<form action="/Employees/AssignWork/@Model.Id" method="post">
+    <select name="workId">
+        @foreach (Work work in ViewBag.Works)
+        {
+            <option value="@work.Id.ToString()">@work.Title</option>
+        }
+    </select>
+    <button type="submit">Assign Work</button>
+</form>
+

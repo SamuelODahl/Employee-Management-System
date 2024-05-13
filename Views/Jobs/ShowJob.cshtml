@@ -1,0 +1,32 @@
+﻿@model Work
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Show Job";
+}
+
+@if (!string.IsNullOrEmpty(TempData["ErrorMessage"] as string))
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (Model != null)
+{
+    <h1>@Model.Title</h1>
+    <h4>@Model.Description</h4>
+    <p>From: @Model.StartTime until: @Model.EndTime</p>
+
+    <p><a href="/Jobs/EditJob/@Model.Id">Edit assignment</a></p>
+
+    <form id="deleteForm" action="/Jobs/DeleteJob/@Model.Id">
+        <button type="button" onclick="confirmDelete()">Delete assignment</button>
+    </form>
+}
+else
+{
+    <p>The requested job was not found.</p>
+    
+}

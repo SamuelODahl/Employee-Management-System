@@ -1,0 +1,23 @@
+﻿@model Work
+@*
+    
+*@
+@{
+    ViewData["Title"] = "Job Editor";
+}
+
+<h1>Edit assignment</h1>
+
+<form action="/Jobs/EditJob/@Model.Id" method="post">
+    <label for="startTime">Start Time:</label>
+    <input type="time" id="startTime" name="StartTime" value="@Model.StartTime" required>
+
+    <label for="endTime">End Time:</label>
+    <input type="time" id="endTime" name="EndTime" value="@Model.EndTime" required>
+
+    <input type="text" name="Title" placeholder="Title" value="@Model.Title" />
+
+    <textarea name="Description" placeholder="Describe the task">@Model.Description</textarea>
+
+    <button>Save</button>
+</form>

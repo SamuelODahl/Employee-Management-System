@@ -1,0 +1,21 @@
+﻿@model List<Work>
+@*
+   
+*@
+@{
+    ViewData["Title"] = "Assignments";
+}
+
+<h1>Employee assignments</h1>
+
+@foreach(Work work in Model)
+{
+    <p>Assignment: @work.Title</p>
+    <p>Description: @work.Description</p>
+    <p>Start time: @work.StartTime</p>
+    <p>End time: @work.EndTime</p>
+    <p><a href="/Jobs/ShowJob/@work.Id">Show assignment</a></p>
+}
+
+<h3>Create assignment</h3>
+<p><a href="/Jobs/Create">Create</a></p>

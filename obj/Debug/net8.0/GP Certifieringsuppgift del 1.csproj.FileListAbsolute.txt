@@ -1,0 +1,45 @@
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\appsettings.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\GP Certifieringsuppgift del 1.staticwebassets.runtime.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\GP Certifieringsuppgift del 1.exe
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\GP Certifieringsuppgift del 1.deps.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\GP Certifieringsuppgift del 1.runtimeconfig.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\GP Certifieringsuppgift del 1.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\GP Certifieringsuppgift del 1.pdb
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\DnsClient.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\Snappier.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.csproj.AssemblyReference.cache
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.AssemblyInfoInputs.cache
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.AssemblyInfo.cs
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.csproj.CoreCompileInputs.cache
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.RazorAssemblyInfo.cache
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.RazorAssemblyInfo.cs
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets\msbuild.GP Certifieringsuppgift del 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets\msbuild.build.GP Certifieringsuppgift del 1.props
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GP Certifieringsuppgift del 1.props
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GP Certifieringsuppgift del 1.props
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\scopedcss\bundle\GP Certifieringsuppgift del 1.styles.css
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\scopedcss\projectbundle\GP Certifieringsuppgift del 1.bundle.scp.css
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.csproj.CopyComplete
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\refint\GP Certifieringsuppgift del 1.dll
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.pdb
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\GP Certifieringsuppgift del 1.genruntimeconfig.cache
+C:\Users\samue\source\repos\GP Certifieringsuppgift del 1\GP Certifieringsuppgift del 1\obj\Debug\net8.0\ref\GP Certifieringsuppgift del 1.dll

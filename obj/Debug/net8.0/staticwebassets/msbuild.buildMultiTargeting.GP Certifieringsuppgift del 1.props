@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GP Certifieringsuppgift del 1.props" />
+</Project>
